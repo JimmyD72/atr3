@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <AppBar className='header' position='static'>
-      <h1>Web App</h1>
+      <h1>All The Rage!</h1>
 
       <IconButton onClick={openPopover}>
         <OnlineIndicator online={isLoggedIn}>
@@ -68,7 +68,7 @@ export default function Header() {
           ) : (
             <Fragment>
               <ListItemButton onClick={clickLogin}>Login</ListItemButton>
-              <ListItemButton onClick={clickRegister}>Reigster</ListItemButton>
+              <ListItemButton onClick={clickRegister}>Register</ListItemButton>
             </Fragment>
           )}
         </List>
