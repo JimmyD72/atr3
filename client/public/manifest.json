@@ -1,7 +1,7 @@
 {
-  "name": "Web Application",
-  "short_name": "Web App",
-  "description": "An awesome web application!",
+  "name": "All the Rage",
+  "short_name": "All the Rage",
+  "description": "All the Rage web application!",
   "icons": [
     {
       "src": "favicon.ico",
